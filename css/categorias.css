@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff97d9, #e3b2d2, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar personalizado */
+.custom-navbar {
+    background-color: #ff97d9;
+    padding: 15px 0;
+}
+
+.custom-navbar .navbar-brand {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.custom-navbar .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+
+.custom-navbar .nav-link:hover {
+    color: #000000;
+}
+
+.custom-navbar .btn-outline-light {
+    border-color: white;
+    color: white;
+}
+
+.custom-navbar .btn-outline-light:hover {
+    background-color: white;
+    color: #000000;
+}
+
+/* Buscador */
+.search-bar {
+    border-radius: 20px;
+    padding: 8px;
+    width: 250px;
+}
+
+/* Categorías */
+.container h3 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.container h5 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.container .row {
+    margin-bottom: 30px;
+}
+
+.container img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    background-color: #ff97d9;
+
+}
+
+.footer h5 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin: 5px 0;
+}

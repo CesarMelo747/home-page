@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(135deg, #ff97d9, #e3b2d2, #ffffff); /* Fondo con un degradado diagonal */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+.custom-navbar {
+    background-color: #ff97d9; /* Color de fondo de la barra de navegación */
+    padding: 15px; /* Espaciado interno */
+}
+
+.navbar-brand img.logo {
+    width: 120px; /* Ancho de la imagen del logo */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Color del texto de los enlaces */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1.1rem; /* Tamaño de fuente */
+    transition: color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+.container img {
+    width: 150px; /* Ancho de las imágenes */
+    height: auto; /* Altura proporcional */
+    margin: 10px; /* Espaciado alrededor de las imágenes */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para transformaciones y sombras */
+}
+
+.container img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la imagen */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000000; /* Cambia el color del enlace al pasar el cursor */
+}
+
+.search-bar {
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 8px; /* Espaciado interno */
+    width: 250px; /* Ancho del campo de búsqueda */
+}
+
+/* Estilos para centrar el carrusel */
+.carousel {
+    display: flex; /* Flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    max-width: 500px; /* Ancho máximo del carrusel */
+    margin: 50px auto; /* Margen superior e inferior, centrado horizontal */
+}
+
+.carousel-inner img {
+    border-radius: 10px; /* Bordes redondeados de las imágenes */
+    max-height: 400px; /* Altura máxima de las imágenes */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+}
+
+.footer {
+    margin-top: 400px; /* Espaciado superior */
+    background-color: #ff97d9; /* Color de fondo del pie de página */
+    padding: 20px; /* Espaciado interno */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+.footer h5 {
+    color: #ffffff; /* Color del texto del encabezado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.footer p {
+    margin: 5px 0; /* Margen superior e inferior */
+}
